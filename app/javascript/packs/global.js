@@ -1,3 +1,5 @@
+console.log("custom js file loaded")
+
 document.addEventListener("turbolinks:load", function() {
 
     var notification = document.querySelector('.global-notification');
