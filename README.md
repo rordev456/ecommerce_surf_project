@@ -1,11 +1,12 @@
 # README
 
-More information to come about README
+More information to come about the README
 
 -----------------
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a practice of Ruby on Rails web project.
+
+-----------------
 
 Things you may want to cover:
 
@@ -25,4 +26,6 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+-----------------
+
+Following the tutorial from @justalever Andy Leverenz
