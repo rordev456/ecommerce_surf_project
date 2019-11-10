@@ -90,4 +90,37 @@ Product.create!([{
     price: "720",
     image: Rails.root.join("app/assets/images/surf6.jpg").open,
     user_id: user_johnjohn.id
+},
+{
+    title: "KORKO Standard - Notox",
+    brand: "Notox",
+    model: "Model 1",
+    description: "Shapes sur-mesure pour les surfeurs experts. Construction légère en polystyrène recyclé, stringer flexible en PET (100% issu du recyclage des bouteilles), lin blanc/bio-époxy sous vide et pont renforcé en bambou FSC.",
+    condition: "Fair",
+    finish: "Beige",
+    price: "510",
+    image: Rails.root.join("app/assets/images/surf4.jpg").open,
+    user_id: user_johnjohn.id
+},
+{
+    title: "Shortboard performance greenOne - Notox",
+    brand: "Notox",
+    model: "Model 1",
+    description: "Shapes sur-mesure pour les surfeurs exigeants. Construction en polystyrène recyclé, stringer bois, lin/bio-époxy sous vide.",
+    condition: "Used",
+    finish: "Brown",
+    price: "750",
+    image: Rails.root.join("app/assets/images/surf5.jpg").open,
+    user_id: user_johnjohn.id
+},
+{
+    title: "Shortboard hybride greenOne - Notox",
+    brand: "Notox",
+    model: "Model 1",
+    description: "Shapes sur-mesure pour les besoins plus précis des surfeurs intermédiaires à confirmés. Construction en polystyrène, raidisseur central lin/bio-époxy et revêtement intégral liège brut.",
+    condition: "Used",
+    finish: "Maroon",
+    price: "720",
+    image: Rails.root.join("app/assets/images/surf6.jpg").open,
+    user_id: user_johnjohn.id
 }])
